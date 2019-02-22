@@ -73,4 +73,4 @@ export const MyComponent:FunctionComponent<MCProps> = props =>(
 * mondrian-css makes it easy to assign or change large groups of classes.
 * It can help keep your HTML markup clean and implementation agnostic.
 
-[~~Try it now!~~](https://github.com/bknowlesnews/mondrian-css/)
+[~~Try it now!~~](https://github.com/bknowlesnews/mondrian-css/) ***coming soon***
