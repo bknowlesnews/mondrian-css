@@ -1,11 +1,11 @@
-#mondrian-css
-###Semantically manage assignment of functional CSS in code
+# mondrian-css
+### Semantically manage assignment of functional CSS in code
 > The primary objective of Mondrian CSS is to empower designers and engineers to
 meaningfully group reusable collections of functional styles without impacting the
 resulting functional CSS classes.
 
-####mondrian-css Using Tachyons with React and TypeScript
-#####Easy to set up
+#### mondrian-css Using Tachyons with React and TypeScript
+##### Easy to set up
 install from npm:
 ```
 npm install --save mondrian-css
@@ -41,7 +41,7 @@ const _m = mcss.init({
 * Just declare your themes and semantic styles in the configuration object, referencing the classes from CSS as they would appear in the HTML class attribute.
 * The default behaviour of mondrian-css is to look for a style group in the specified theme and then fall back to the default theme if nothing is found. These may occur when extending one style group from another.
 * With strict mode enabled, whether you use mondrian-css during compilation or at runtime, it will warn of any style collisions during the init method.
-#####Easy to write 
+##### Easy to write 
 ```
 const [theme, setTheme] = useState("antique");
 
@@ -60,7 +60,7 @@ export const MyComponent:FunctionComponent<MCProps> = props =>(
 * It is entirely optional when and where you use mondrian-css to assign classes
 * If you don't specify a theme mondrian-css will look for the default
 
-#####The Resulting HTML and class assignment
+##### The Resulting HTML and class assignment
 ```
 <ThemeSelector theme="antique" > ... </ThemeSelector>
 <section class="tc ph4">
