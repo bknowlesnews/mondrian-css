@@ -10,7 +10,7 @@ install from npm:
 ```
 npm install --save mondrian-css
 ```
-import mondrian-css into your code:
+import mondrian-css into your code and pass some configuration to the init method:
 
 ```
 import react, {FunctionComponent, useState} from "react";
